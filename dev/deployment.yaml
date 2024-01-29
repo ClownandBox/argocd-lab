@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: ubuntu
+        image: nginx:latest
