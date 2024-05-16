@@ -3,3 +3,8 @@ kind: Deployment
 metadata:
   name: nginx
   namespace: test
+spec:
+    spec:
+      containers:
+      - name: test
+        image: nginx:latest
