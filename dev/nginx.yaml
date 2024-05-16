@@ -6,5 +6,5 @@ metadata:
 spec:
     spec:
       containers:
-      - name: test
+      - name: nginx
         image: nginx:latest
