@@ -10,4 +10,9 @@ subjects:
 - kind: ServiceAccount
   name: example-serviceaccount
   namespace: lsj
-
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: test
+  namespace: lsj
