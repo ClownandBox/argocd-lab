@@ -5,7 +5,7 @@ metadata:
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: admin
+  name: argocd-server
 subjects:
 - kind: ServiceAccount
   name: example-serviceaccount
