@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
       - name: test
-        image: unbutn:latest
+        image: ubuntn:latest
