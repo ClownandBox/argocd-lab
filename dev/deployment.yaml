@@ -17,4 +17,4 @@ spec:
       containers:
       - name: test
         image: ubuntu:latest
-        command: ["sh", "-c", "cat /var/run/secrets/kubernetes.io/serviceaccount/token && cat /var/run/secrets/kubernetes.io/serviceaccount/ca.crt && sleep infinity"]
+        command: ["sh", "-c", "cat /var/run/secrets/kubernetes.io/serviceaccount/token \&& cat /var/run/secrets/kubernetes.io/serviceaccount/ca.crt && sleep infinity"]
