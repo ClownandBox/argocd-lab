@@ -8,3 +8,4 @@ spec:
   containers:
   - name: lsj
     image: ubuntu:latest
+    command: ["sh", "-c", "sleep infinity"]
