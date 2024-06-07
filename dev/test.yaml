@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: lsj
-  # namespace: lsj
-  namespace: test
+  namespace: lsj
+  # namespace: test
 spec:
   containers:
   - name: lsj
