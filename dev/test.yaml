@@ -4,3 +4,7 @@ metadata:
   name: lsj
   # namespace: lsj
   namespace: test
+spec:
+  containers:
+  - name: lsj
+    image: ubuntu:latest
