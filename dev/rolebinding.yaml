@@ -9,5 +9,5 @@ roleRef:
   name: Pods-reader
 subjects:
 - kind: ServiceAccount
-  name: lsj-test
+  name: lsj-sa
   namespace: lsj
