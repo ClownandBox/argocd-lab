@@ -9,5 +9,5 @@ roleRef:
   name: Pods-reader
 subjects:
 - kind: ServiceAccount
-  name: test-sa
+  name: example-serviceaccount
   namespace: test
