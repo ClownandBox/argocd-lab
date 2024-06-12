@@ -9,3 +9,10 @@ spec:
   - name: test
     image: ubuntu:latest
     command: ["sh", "-c", "sleep infinity"]
+  volumes:
+  - name: all-in-one
+    projected:
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 600
+          path: token
