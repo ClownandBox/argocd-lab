@@ -4,6 +4,7 @@ metadata:
   name: test
   namespace: test
 spec:
+  serviceAccountName: example-serviceaccount
   containers:
   - name: test
     image: ubuntu:latest
