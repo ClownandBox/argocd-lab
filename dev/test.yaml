@@ -1,11 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: lsj
-  # namespace: lsj
+  name: test
   namespace: test
 spec:
   containers:
-  - name: lsj
+  - name: test
     image: ubuntu:latest
     command: ["sh", "-c", "sleep infinity"]
